@@ -1,0 +1,8 @@
+pysd>=3.9,<4
+numpy>=1.24
+pandas>=2.0
+xarray>=2023.1
+matplotlib>=3.7
+openpyxl>=3.1
+jupyterlab>=4
+
