@@ -1,8 +1,12 @@
+# Core runtime dependencies for the FELIX PySD repair / validation workflow
 pysd>=3.9,<4
 numpy>=1.24
 pandas>=2.0
 xarray>=2023.1
 matplotlib>=3.7
 openpyxl>=3.1
+
+# Notebook / interactive analysis support
 jupyterlab>=4
+ipykernel>=6.0
 

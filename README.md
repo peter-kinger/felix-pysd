@@ -69,12 +69,41 @@ changes to the repair rules rather than silently accepting different matches.
 
 ## Setup
 
-Python 3.10 or newer is recommended. From this directory:
+Python 3.10 or newer is recommended. From this directory, use the environment
+setup that matches your shell.
+
+### macOS / Linux (bash or zsh)
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+### Windows PowerShell
 
 ```powershell
 python -m venv .venv
 .venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
 python -m pip install -r requirements.txt
+```
+
+### Conda
+
+```bash
+conda create -n felix-pysd python=3.10 -y
+conda activate felix-pysd
+python -m pip install -r requirements.txt
+```
+
+### uv
+
+```bash
+uv venv
+source .venv/bin/activate
+uv pip install -r requirements.txt
 ```
 
 The workflow was verified with PySD 3.9.0. Vensim Professional or DSS is needed
