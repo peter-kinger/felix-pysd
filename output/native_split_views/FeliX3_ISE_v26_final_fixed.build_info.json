@@ -1,0 +1,20 @@
+{
+  "source": "F:\\BaiduSyncdisk-mu\\Project ITP\\tool-for-scientific-research\\1_felix-pysd\\output\\FeliX3_ISE_v26_final_fixed.mdl",
+  "source_sha256": "9eb4b6bff887a3d82a9e5f6154512e395cc82327fdaa36675e6f2f0865ba8ea3",
+  "output": "F:\\BaiduSyncdisk-mu\\Project ITP\\tool-for-scientific-research\\1_felix-pysd\\output\\native_split_views\\FeliX3_ISE_v26_final_fixed.mdl",
+  "already_repaired": true,
+  "equations_preserved_by_sketch_normalization": true,
+  "sketch_arrow_changes": 3,
+  "smooth_patches": {
+    "modules_FeliX3_ISE_v26_final_fixed\\extreme_events.py": 2
+  },
+  "split_views": true,
+  "initialize_during_translation": false,
+  "initialization_passed": true,
+  "view_module_count": 30,
+  "pysd_version": "3.14.3",
+  "initialization_warnings": [
+    "_hardcodedlookup_lookup_for_the_impact_of_mys_on_climate_mortality\nextrapolating data below the minimum value of the series",
+    "_hardcodedlookup_effect_of_t_on_yield_lookup\nextrapolating data below the minimum value of the series"
+  ]
+}

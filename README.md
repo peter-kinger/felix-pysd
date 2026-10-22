@@ -219,3 +219,20 @@ model or PySD versions.
 - `output/FeliX3_ISE_v26_final_fixed.py` is generated code. Do not edit it by
 hand; update `felix_mdl_tool.py` and rebuild instead.
 
+
+
+## Native view splitting
+
+Use `python felix_mdl_tool_split_view_version.py` to repair and translate the
+model with PySD's native `split_views=True`. The output entry point, subscript
+JSON and all 30 view modules are in `output/native_split_views/`.
+
+```powershell
+python output/native_split_views/run_model.py
+python output/native_split_views/validate_native_split_views.py
+```
+
+Verified with PySD 3.14.3: 1900?1902 simulations (dt=0.125) match the original
+single-file model across 49 output columns, with zero maximum absolute error.
+See [the view-splitting guide](output/native_split_views/README.md) for rebuild
+commands, sketch normalization, SMOOTH compatibility and validation limits.

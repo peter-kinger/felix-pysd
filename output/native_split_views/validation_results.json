@@ -1,0 +1,36 @@
+{
+  "pysd": "3.14.3",
+  "checks": {
+    "original_sketch": {
+      "error": "IncompleteParseError",
+      "message": "Rule 'line' matched in its entirety, but it didn't consume all the text. The non-matching portion of the text begins with '(-295,883)|' (line 1, column 55)."
+    },
+    "unpatched_smooth_initialization": {
+      "returned": true
+    },
+    "original": {
+      "seconds": 12.135691899980884,
+      "all_finite": true,
+      "rows": 3,
+      "columns": 49,
+      "warnings": [
+        "_hardcodedlookup_effect_of_t_on_yield_lookup\nextrapolating data below the minimum value of the series",
+        "_hardcodedlookup_lookup_for_the_impact_of_mys_on_climate_mortality\nextrapolating data below the minimum value of the series"
+      ]
+    },
+    "native_split": {
+      "seconds": 12.73129169997992,
+      "all_finite": true,
+      "rows": 3,
+      "columns": 49,
+      "warnings": [
+        "_hardcodedlookup_effect_of_t_on_yield_lookup\nextrapolating data below the minimum value of the series",
+        "_hardcodedlookup_lookup_for_the_impact_of_mys_on_climate_mortality\nextrapolating data below the minimum value of the series"
+      ]
+    }
+  },
+  "equivalence_passed": true,
+  "max_absolute_error": 0.0,
+  "original_file_hashes_unchanged": true,
+  "view_module_count": 30
+}
